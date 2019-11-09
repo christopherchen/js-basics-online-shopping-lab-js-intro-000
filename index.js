@@ -11,8 +11,8 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var obj = JSON.parse(item);
- cart.push(obj);
+ 
+ cart.push(item);
  
 }
 
