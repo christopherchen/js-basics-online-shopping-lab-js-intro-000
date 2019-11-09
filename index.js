@@ -18,8 +18,14 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var items = [];
   if (cart.length === 0) {
     return 'Your shopping cart is empty.';
+  } else {
+    for (var i = 0; i < cart.length; i++) {
+      items.push([cart[i].itemName, cart[i].itemPrice]);
+    }
+    return `In your cart, you have 
   }
 }
 
