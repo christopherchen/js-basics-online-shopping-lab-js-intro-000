@@ -27,7 +27,7 @@ function viewCart() {
       items.push([cart[i].itemName, cart[i].itemPrice]);
       numItems++;
     }
-    return `In your cart, you have 
+    return `In your cart, you have `
   }
 }
 
